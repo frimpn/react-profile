@@ -26,9 +26,7 @@ function Header() {
         <li className="nav-item" style={header.navItem}>
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li className="nav-item" style={header.navItem}>
-          <a className="nav-link" href="#">About</a>
-        </li>
+        
         <li className="nav-item" style={header.navItem}>
           <a className="nav-link" href="#">Portfolio</a>
         </li>
