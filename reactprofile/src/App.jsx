@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react'
 import Header from './components/Header'
 import Home from './components/Home'
+import ProjectPage from './components/ProjectPage'
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <>
      <Header />
     <Home />
+    <ProjectPage />
     </>
   )
 }
