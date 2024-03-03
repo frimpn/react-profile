@@ -13,7 +13,7 @@ function ProjectPage() {
      { projectData.map((projectObj,i) =>(
         <Projects
 
-          id = {i}
+          key = {i}
         title = {projectObj.title}     
         image = {projectObj.img}    
          github = {projectObj.github}     

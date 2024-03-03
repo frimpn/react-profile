@@ -30,9 +30,7 @@ function Header() {
         <li className="nav-item" style={header.navItem}>
           <a className="nav-link" href="#">Portfolio</a>
         </li>
-        <li className="nav-item" style={header.navItem}>
-          <a className="nav-link" href="#">Resume</a>
-        </li>
+        
         <li className="nav-item" style={header.navItem}>
           <a className="nav-link" href="#">Contact</a>
         </li>
