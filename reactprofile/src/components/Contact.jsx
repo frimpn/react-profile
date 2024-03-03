@@ -10,7 +10,7 @@ function Contact() {
     })
 
     const handleInputChange = (e) => {
-       const [name,value] = e.target
+       const {name,value} = e.target
 
        setFormData({
         ...formData,
@@ -20,7 +20,13 @@ function Contact() {
 
     const handleFormSubmit = (e) =>{
       e.preventDefault()
+      if(!formData.fullName || !formData.email){
+        alert('Please fill out email or name')
+        return
+      }else{
       alert(` Hello ${formData.fullName} your message has been sent`)
+      }
+
       setFormData({
         fullName: '',
       email: '',
