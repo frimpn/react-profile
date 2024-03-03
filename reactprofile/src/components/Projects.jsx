@@ -4,10 +4,10 @@ import React from 'react'
 
 
 function Projects(props) {
-   
+   console.log(props)
   return (
     
-       <div className="card" >
+       <div className="card" key = {props.id} >
     <img src={props.image} className="card-img-top" alt="..."/>
      <div className="card-body">
       <h5 className="card-title">{props.title}</h5>

@@ -10,10 +10,10 @@ function ProjectPage() {
     <>    
        
 
-     { projectData.map((projectObj) =>(
+     { projectData.map((projectObj,i) =>(
         <Projects
 
-        id = {projectObj.id}     
+          id = {i}
         title = {projectObj.title}     
         image = {projectObj.img}    
          github = {projectObj.github}     
