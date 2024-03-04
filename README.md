@@ -17,4 +17,4 @@ In this project i created a portfolio website, using react. showing my skills an
 
 ## Usage
 
-Navigate through the tabs to get view, my projects, about me and contact information.
+Navigate through the tabs to view, my projects, about me and contact information.
