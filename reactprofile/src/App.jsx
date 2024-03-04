@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import ProjectPage from './components/ProjectPage'
 import Contact from './components/Contact'
-
+import './App.css'
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
+    
   )
 }
 
