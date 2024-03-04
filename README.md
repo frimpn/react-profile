@@ -6,11 +6,11 @@ In this project i created a portfolio website, using react. showing my skills an
 
 ## Installation
 
-# node
-# npm react-router-dom
-# npm react
-# bootstrap
-# npm @popperjs/core
+. node
+. npm react-router-dom
+. npm react
+. bootstrap
+. npm @popperjs/core
 
 
 
