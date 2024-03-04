@@ -1,4 +1,4 @@
-/* Header.css */
+
 
 .header-nav {
     background-color: #343a40;
@@ -32,7 +32,7 @@
     background-color: #ffc107;
   }
   
-  /* Media query for mobile responsiveness */
+  
   @media screen and (max-width: 768px) {
     .nav-menu {
       flex-direction: column;
