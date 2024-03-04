@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-
+import './Contact.css'
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -34,13 +34,14 @@ function Contact() {
       })
     }
   return (
-    <>
+    <div className='contact-container'>
     <h1>My contact details: </h1>
-    <p> Email: frimpongnana8@gmail.com </p>
-    <p> Github: <a href='https://github.com/frimpn'>frimpn</a> </p>
-    <p> Linkedin: <a href='https://www.linkedin.com/in/nana-amankwah-82787b200/'> Nana Linkedin</a> </p>
-    <p> My CV: <a href='https://docs.google.com/document/d/1R5ZzC_Xo64kPe4sLOLussA3KWF3sB6Fa/edit?usp=sharing&ouid=101628047014905093722&rtpof=true&sd=true'>CV</a></p>
-  
+    <div className='contact-details' >
+    <p> Email: <a href='mailto:frimpongnana8@gmail.com'> frimpongnana8@gmail.com </a></p>
+    <p> Github: <a href='https://github.com/frimpn' target='_blank'>frimpn</a> </p>
+    <p> Linkedin: <a href='https://www.linkedin.com/in/nana-amankwah-82787b200/'  target='_blank'> Nana Linkedin</a> </p>
+    <p> My CV: <a href='https://docs.google.com/document/d/1R5ZzC_Xo64kPe4sLOLussA3KWF3sB6Fa/edit?usp=sharing&ouid=101628047014905093722&rtpof=true&sd=true'  target='_blank'>CV</a></p>
+  </div>
 
   <h2>Contact form</h2>
   <form className='form'>
@@ -91,9 +92,9 @@ Submit
   </form>
   
   
+  </div>
   
-  
-    </>
+    
   )
 }
 

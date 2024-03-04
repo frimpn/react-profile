@@ -11,8 +11,8 @@ function Projects(props) {
     <img src={props.image} className="card-img-top" alt="..."/>
      <div className="card-body">
       <h5 className="card-title">{props.title}</h5>
-      <a href={props.github} className="btn btn-primary">Github</a>
-      <a href={props.page} className="btn btn-primary">Page</a>
+      <a href={props.github} target='_blank' className="btn btn-primary">Github</a>
+      <a href={props.page} target='_blank' className="btn btn-primary">Page</a>
     </div>
   </div>
   
