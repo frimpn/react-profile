@@ -4,14 +4,12 @@
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 32%;
+    height: 50px;
+    margin: 5px;
   }
   
-  .card-img-top {
-    width: 100px;
-    height: auto;
 
-    
-  }
   
   .card-body {
     padding: 20px;
@@ -22,7 +20,7 @@
   }
   
   .card-title {
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
  text-decoration: underline
@@ -48,6 +46,10 @@
   }
   
   @media screen and (max-width: 768px) {
+  .card{
+    width:100%
+  }
+  
     .card-body {
       padding: 10px;
     }
