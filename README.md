@@ -6,15 +6,15 @@ In this project i created a portfolio website, using react. showing my skills an
 
 ## Installation
 
-# node
-# npm react-router-dom
-# npm react
-# bootstrap
-# npm @popperjs/core
+. node
+. npm react-router-dom
+. npm react
+. bootstrap
+. npm @popperjs/core
 
 
 
 
 ## Usage
 
-Navigate from the tabs to get view, my projects, about me and contact information.
+Navigate through the tabs to view, my projects, about me and contact information.
